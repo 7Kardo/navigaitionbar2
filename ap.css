@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(./imaeg/welt.jpg);  
+    height: 100vh;
+   
+}
+ul{
+    background-color: chocolate;
+    height: 70px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px 0px;
+}
+ul li{
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+ul li:hover{
+color: blueviolet;
+}
+ul div input{
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+}
+ul div button{
+border: none;
+margin-right: 15px;
+padding: 5px 15px;
+border-radius: 20px;
+}
+main div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+main{display: flex;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    margin-top: 100px;
+}
+.kardo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   justify-content: space-evenly;
+    width:30vh ;
+    height: 300px;
+  border-radius: 20px;
+ background-color: chocolate;
+padding-left: 10px;
+padding-top: 10px;
+}
+
