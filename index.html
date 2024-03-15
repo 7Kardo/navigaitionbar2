@@ -1,71 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>kardo</title>
-  <link rel="stylesheet" href="ap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-      
   
 
 
-      <ul >
-        <div >
-          <li>Home</li>
-          <li>About</li>
-          <li>Protfolio</li>
-          <li>Services</li>
-        </div>
-        <div >
-          <input  type="text" placeholder="search">
-          <button>search</button>
-        </div>
-      </ul>
 
-   <main>
-      <div >
-        <div class="kardo">
-          <img src="./imaeg/katz.jpg">
-          <h3>leran</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam, fuga iusto
-             atque maxime excepturi placeat quae
-             autem veritatis qui ut optio quas amet dignissimos.
-          </p> 
-        </div>
+
+    <ul>
+      <div>
+        <li><a href="#" id="kardo">Home</a></li>
+        <li><a href="#">abawt</a></li>
+        <li><a href="#">contakt</a></li>
+        <li><a href="#">telle fon</a></li>
       </div>
+      <div class="conten">
+        <input form="razh" type="text" placeholder="serch">
+        <button id="razh">serch</button>  
+    </ul>
 
+    <div class="kardo">
+        <h3>Hallo</h3>
+    </div>
 
-      <div >
-        <div class="kardo" >
-          <img src="./imaeg/arbeit.jpg">
-          <h3>Arbait</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam, fuga iusto
-             atque maxime excepturi placeat quae
-             autem veritatis qui ut optio quas amet dignissimos.
-           </p> 
-        </div>
-      </div>
-  
+    <style>
+        body{
+            background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(./imaeg/welt.jpg);
+           height: 100vh;
+            width: 100%;
 
-      
-      <div >
-        <div class="kardo">
-          <img src="./imaeg/blume.jpg">
-          <h3>gutbjob</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla quibusdam, fuga iusto
-             atque maxime excepturi placeat quae
-             autem veritatis qui ut optio quas amet dignissimos.
-           </p> 
-        </div>
-      </div>
-
-    
-
-  
-
-
-  
+            background-size:cover;
+            
+          
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul{
+            display: flex;
+            background-color: burlywood;
+            height: 50px;
+            width: 80% ;
+            border-radius: 30px;
+            box-shadow: 2px 2px 10px 0px;
+            margin: 20px auto;
+           justify-content: space-between;
+            align-items: center;
+            
+        }
+        li{
+            display: inline-block;
+            margin: 10px;
+            font-size: 18px;
+            
+            
+        
+        } ul li a{
+            text-decoration: none;
+           
+        }
+        #kardo{
+            background-color: rgba(128, 255, 0, 0.79);
+            padding: 10px;
+            border-radius: 8px;
+            
+        }
+        ul li a:hover{
+            text-decoration: underline;
+        }
+        ul div input{
+            padding: 5px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            margin-right: 10px;
+        }
+        ul div button{
+            padding: 5px 15px;
+            border: none;
+            border-radius: 8px;
+            margin-right: 10px;
+            background-color: #333;
+            color: white;
+            
+        }
+        .kardo{
+            background-color: aqua;
+            width: 150px;
+            height: 150px;
+            margin: 200px auto;
+            transform: rotateZ(180deg);
+        }
+        
+    </style>
 </body>
 </html>
